@@ -1,0 +1,22 @@
+# Robots.txt for Kejdi Muçi's Portfolio
+# Allow all crawlers to index the site
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Point to sitemap
+Sitemap: https://kejdimuci.com/sitemap.xml
+
+# Cache policy
+Cache-Control: public, max-age=86400
