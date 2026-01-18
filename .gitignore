@@ -1,0 +1,84 @@
+# Environment variables & Configuration
+.env
+.env.local
+.env.*.local
+config.local.php
+credentials.json
+secrets.json
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+
+# Project documentation & reports
+OPTIMIZATION_REPORT.md
+MOVE_IMAGES.txt
+*.log
+logs/
+
+# Sensitive files
+submissions.txt
+*.sql
+database.sql
+
+# Node modules (if using any)
+node_modules/
+package-lock.json
+yarn.lock
+
+# PHP dependencies
+vendor/
+composer.lock
+
+# Cache files
+.cache/
+cache/
+temp/
+tmp/
+
+# Build files
+dist/
+build/
+*.min.js
+*.min.css
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Local development files
+test.php
+local/
+dev/
+testing/
+
+# Backup files
+*.backup
+*.bak
+*.old
+*~
+
+# System files
+Thumbs.db
+.fseventsd
+.AppleDouble
+.LSOverride
+
+# Firebase/Hosting specific
+.firebase/
+.firebaserc
+
+# Hostinger/Hosting specific
+public_html/
+.cpanel.yml
+.htaccess.backup
