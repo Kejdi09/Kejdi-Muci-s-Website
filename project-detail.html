@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gjilpera Magjike</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="navbar-content container">
+      <a href="index.html" class="logo">KejdiUci</a>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="portfolio.html" class="nav-link active">Portfolio</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- PAGE HEADER / HERO -->
+  <section class="page-header" style="background: url('images/gjilpera-banner.jpg') center/cover no-repeat; color: white;">
+    <div class="container">
+      <h1>Gjilpera Magjike</h1>
+      <p>Showcasing shirts and apparel with embroidered or machine-printed designs. This website is a work in progress.</p>
+    </div>
+  </section>
+
+  <!-- PROJECT DETAIL SECTION -->
+  <section class="services-detail container">
+    <div class="service-detail-item">
+      <h2>About the Project</h2>
+      <p class="service-intro">
+        Gjilpera Magjike allows users to browse apparel and place orders, while managers can manage products and orders using CRUD functionality. Some pages and styling are still in progress.
+      </p>
+    </div>
+
+    <div class="service-detail-item">
+      <h2>Tech Stack</h2>
+      <div class="tech-list">
+        <span>Java</span>
+      </div>
+    </div>
+
+    <div class="service-detail-item">
+      <h2>Project Features</h2>
+      <div class="service-details-grid">
+        <div class="detail-box">
+          <h3><i class="fa fa-user"></i> User Features</h3>
+          <ul>
+            <li>Browse products and view details</li>
+            <li>Place orders online</li>
+            <li>Basic account management</li>
+          </ul>
+        </div>
+        <div class="detail-box">
+          <h3><i class="fa fa-cogs"></i> Manager Features</h3>
+          <ul>
+            <li>CRUD operations for products</li>
+            <li>Order management</li>
+            <li>Manage user roles and access</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-detail-item">
+      <h2>Screenshots</h2>
+      <div class="project-screenshots" style="display:flex; gap:1rem; flex-wrap:wrap;">
+  <img src="gjilpera.png" alt="Product Page" style="width:100%; max-width:300px; height:auto; border-radius:8px;">
+  <img src="images/gjilpera-2.png" alt="Order Page" style="width:100%; max-width:300px; height:auto; border-radius:8px;">
+  <img src="images/gjilpera-3.png" alt="Manager Dashboard" style="width:100%; max-width:300px; height:auto; border-radius:8px;">
+</div>
+
+
+    <div class="service-detail-item">
+      <h2>Project Links</h2>
+      <div class="project-links">
+        <a href="#" class="link-btn">Live Demo</a>
+        <a href="#" class="link-btn secondary">Source Code</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content container">
+      <div class="footer-section">
+        <h4>About Me</h4>
+        <p>Software developer building modern web applications using JavaScript, React, Node.js, and more.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>Email: <a href="mailto:kejdi@example.com">kejdi@example.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 KejdiUci. All Rights Reserved.
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.nav-menu');
+    toggle.addEventListener('click', () => {
+      toggle.classList.toggle('active');
+      menu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
